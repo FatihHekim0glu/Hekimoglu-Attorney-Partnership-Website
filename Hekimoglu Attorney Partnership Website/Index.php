@@ -1,8 +1,9 @@
 <?php include 'header.php'; ?>
-
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 <section class="hero">
     <h1 data-en="Hekimoglu Attorney Partnership" data-tr="Hekimoğlu Avukatlık Ortaklığı">Hekimoglu Attorney Partnership</h1>
-    <p data-en="Providing expert legal services since 1989" data-tr="1989'dan beri uzman hukuk hizmetleri sunuyoruz">Providing expert legal services since 1989</p>
+    <p data-en="Providing expert legal services since 2024" data-tr="2024'den beri uzman hukuk hizmetleri sunuyoruz">Providing expert legal services since 2024</p>
 </section>
 
 <main class="container">

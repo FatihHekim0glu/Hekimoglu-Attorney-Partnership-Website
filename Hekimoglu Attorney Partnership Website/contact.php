@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
-
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 <main class="container">
     <h1 data-en="Contact Us" data-tr="Bize Ulaşın">Contact Us</h1>
     <section id="contact-info">

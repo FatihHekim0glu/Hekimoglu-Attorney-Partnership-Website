@@ -1,6 +1,6 @@
 <header>
     <nav class="container">
-        <div class="logo">Hekimoglu | 25</div>
+        <div class="logo">Hekimoglu | LLP</div>
         <ul class="nav-links">
             <li><a href="index.html" data-en="Home" data-tr="Ana Sayfa">Home</a></li>
             <li><a href="about.html" data-en="Who We Are" data-tr="Biz Kimiz">Who We Are</a></li>

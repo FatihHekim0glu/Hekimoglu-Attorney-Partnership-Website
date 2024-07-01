@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
-
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 <main class="container">
     <h1 data-en="Who We Are" data-tr="Biz Kimiz">Who We Are</h1>
     <section id="about">
