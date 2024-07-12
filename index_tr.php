@@ -13,7 +13,7 @@
 <body>
     <section class="header" id="header-background">
         <nav>
-            <a href="index_tr.php"><img src="Hekimoglu-Attorney-Partnership-logo.png" alt="Hekimoğlu Hukuk Ortaklığı Logo"></a>
+            <a href="index_tr.php"><img src="logo.png" alt="Hekimoğlu Hukuk Ortaklığı Logo"></a>
             <div class="nav-links" id="navLinks">
                 <ul>
                     <li><a href="index_tr.php">Ana Sayfa</a></li>
@@ -30,17 +30,16 @@
                             <a href="wealth-management.php">Varlık Yönetimi</a>
                         </div>
                     </li>
-                    <li><a href="about.php">Hakkımızda</a></li>
+                    <li><a href="about.php">Biz Kimiz</a></li>
                     <li><a href="contact.php">İletişim</a></li>
                 </ul>
             </div>
-        </nav>
 
         <div class="language-switcher">
             <a href="#" class="language-button" onclick="switchLanguage('en')">EN</a>
             <a href="#" class="language-button active" onclick="switchLanguage('tr')">TR</a>
         </div>
-
+        </nav>
         <div class="textbox">
             <h1>"Karmaşıklığı Yönetiyoruz, Mükemmelliği Sunuyoruz"</h1>
             <p>Hekimoğlu Hukuk Ortaklığı olarak, günümüzün birbirine bağlı dünyasında hukuki zorlukların sınır tanımadığını anlıyoruz. Deneyimli profesyonellerden oluşan ekibimiz, küresel ticaretten varlık yönetimine kadar uzanan geniş bir uzmanlık yelpazesinde onlarca yıllık deneyimi bir araya getiriyor. Biz sadece sorunları çözmekle kalmıyor, aynı zamanda onları öngörüyor ve işinizi ileriye taşıyan yenilikçi çözümler sunuyoruz. Mükemmelliğe olan bağlılığımız ve küresel bakış açımızla, modern iş dünyası ve hukukun karmaşıklıkları arasında size rehberlik etmeye hazırız.</p>
