@@ -13,7 +13,7 @@
 <body>
     <section class="header" id="header-background">
         <nav>
-            <a href="index_tr.php"><img src="logo.png" alt="Hekimoğlu Hukuk Ortaklığı Logo"></a>
+            <a href="index_tr.php"><img src="Pictures/logo.png" alt="Hekimoğlu Hukuk Ortaklığı Logo"></a>
             <div class="nav-links" id="navLinks">
                 <ul>
                     <li><a href="index_tr.php">Ana Sayfa</a></li>
@@ -24,14 +24,20 @@
                             <a href="real-estate.php">Gayrimenkul</a>
                             <a href="banking-finance.php">Bankacılık ve Finans</a>
                             <a href="corporate-support.php">Kurumsal Destek</a>
-                            <a href="competition-antitrust.php">Rekabet ve Antitröst</a>
+                            <a href="competition-antitrust.php">Rekabet Hukuku</a>
                             <a href="capital-markets.php">Sermaye Piyasaları</a>
                             <a href="intellectual-property.php">Fikri Mülkiyet</a>
                             <a href="wealth-management.php">Varlık Yönetimi</a>
                         </div>
                     </li>
-                    <li><a href="about.php">Biz Kimiz</a></li>
-                    <li><a href="contact.php">İletişim</a></li>
+                    <li class="dropdown">
+                        <a href="Main-Nav-Pages/about.php">Biz Kimiz</a>
+                        <div class="dropdown-content">
+                            <a href="Main-Nav-Pages/">Yaptıklarımız</a>
+                            <a href="Main-Nav-Pages/members.php">Ekibimiz</a>
+                        </div>
+                    </li>
+                    <li><a href="Main-Nav-Pages/contact.php">İletişim</a></li>
                 </ul>
             </div>
 
@@ -43,7 +49,7 @@
         <div class="textbox">
             <h1>"Karmaşıklığı Yönetiyoruz, Mükemmelliği Sunuyoruz"</h1>
             <p>Hekimoğlu Hukuk Ortaklığı olarak, günümüzün birbirine bağlı dünyasında hukuki zorlukların sınır tanımadığını anlıyoruz. Deneyimli profesyonellerden oluşan ekibimiz, küresel ticaretten varlık yönetimine kadar uzanan geniş bir uzmanlık yelpazesinde onlarca yıllık deneyimi bir araya getiriyor. Biz sadece sorunları çözmekle kalmıyor, aynı zamanda onları öngörüyor ve işinizi ileriye taşıyan yenilikçi çözümler sunuyoruz. Mükemmelliğe olan bağlılığımız ve küresel bakış açımızla, modern iş dünyası ve hukukun karmaşıklıkları arasında size rehberlik etmeye hazırız.</p>
-            <a href="about.php" class="frontpagebutton">Uzmanlığımızı Keşfedin</a>
+            <a href="Main-Nav-Pages/about.php" class="frontpagebutton">Uzmanlığımızı Keşfedin</a>
         </div>
     </section>
 

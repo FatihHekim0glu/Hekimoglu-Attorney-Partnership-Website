@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const currentPage = window.location.pathname.split("/").pop();
     
     if (currentPage === 'index.php' || currentPage === '') {
-        header.style.backgroundImage = "linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('canary-warf.jpg')";
+        header.style.backgroundImage = "linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('Pictures/canary-warf.jpg')";
     } else if (currentPage === 'index_tr.php') {
-        header.style.backgroundImage = "linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('buyuk-dere.png')";
+        header.style.backgroundImage = "linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('Pictures/buyuk-dere.png')";
     }
 });

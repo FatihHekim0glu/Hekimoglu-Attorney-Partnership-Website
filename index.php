@@ -12,7 +12,7 @@
 <body>
     <section class="header" id="header-background">
         <nav>
-            <a href="index.php"><img src="logo.png" alt="Hekimoglu Attorney Partnership Logo"></a>
+            <a href="index.php"><img src="Pictures/logo.png" alt="Hekimoglu Attorney Partnership Logo"></a>
             <div class="nav-links" id="navLinks">
                 <ul>
                     <li><a href="index.php">Home</a></li>
@@ -30,10 +30,10 @@
                         </div>
                     </li>
                     <li class="dropdown">
-                        <a href="#">Who We Are</a>
+                        <a href="Main-Nav-Pages/about.php">Who We Are</a>
                         <div class="dropdown-content">
-                            <a href="global-trade.php">What We Do</a>
-                            <a href="real-estate.php">Our Team</a>
+                            <a href="Main-Nav-Pages/">What We Do</a>
+                            <a href="Main-Nav-Pages/members.php">Our Team</a>
                         </div>
                     </li>
                     <li><a href="contact.php">Contact</a></li>
@@ -48,7 +48,7 @@
         <div class="textbox">
             <h1>"Navigating Complexity, Delivering Excellence"</h1>
             <p>At Hekimoglu Attorney Partnership, we understand that in today's interconnected world, legal challenges know no borders. Our team of dedicated professionals brings together decades of experience across a spectrum of practice areas, from global trade to wealth management. We don't just solve problems; we anticipate them, providing innovative solutions that propel your business forward. With a commitment to excellence and a global perspective, we stand ready to guide you through the complexities of modern business and law.</p>
-            <a href="about.php" class="frontpagebutton">Discover Our Expertise</a>
+            <a href="Main-Nav-Pages/about.php" class="frontpagebutton">Discover Our Expertise</a>
         </div>
     </section>
 
