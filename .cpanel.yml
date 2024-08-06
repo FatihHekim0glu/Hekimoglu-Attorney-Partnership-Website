@@ -2,4 +2,12 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hekimog9/public_html
-    - /bin/cp -r index.php $DEPLOYPATH
+    - /bin/cp index_tr.php $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp stylesheet1.css $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
+    - /bin/cp -R Header&Footer $DEPLOYPATH
+    - /bin/cp -R Main-Nav-Pages $DEPLOYPATH
+    - /bin/cp -R Pictures $DEPLOYPATH
+    - /bin/cp -R Practice-Areas-Nav-Pages $DEPLOYPATH
+    - /bin/cp -R Who-We-Are-Nav-Pages $DEPLOYPATH
