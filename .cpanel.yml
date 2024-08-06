@@ -1,13 +1,59 @@
----
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hekimog9/public_html
+    
+    # Root directory files
+    - /bin/cp config.php $DEPLOYPATH
     - /bin/cp index_tr.php $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp stylesheet1.css $DEPLOYPATH
+    - /bin/cp README.md $DEPLOYPATH
     - /bin/cp script.js $DEPLOYPATH
-    - /bin/cp -R Header&Footer $DEPLOYPATH
-    - /bin/cp -R Main-Nav-Pages $DEPLOYPATH
-    - /bin/cp -R Pictures $DEPLOYPATH
-    - /bin/cp -R Practice-Areas-Nav-Pages $DEPLOYPATH
-    - /bin/cp -R Who-We-Are-Nav-Pages $DEPLOYPATH
+    - /bin/cp stylesheet1.css $DEPLOYPATH
+
+    # Header&Footer
+    - /bin/cp Header\&Footer/footer-tr.php $DEPLOYPATH/Header\&Footer/
+    - /bin/cp Header\&Footer/footer.php $DEPLOYPATH/Header\&Footer/
+    - /bin/cp Header\&Footer/header-tr.php $DEPLOYPATH/Header\&Footer/
+    - /bin/cp Header\&Footer/header.php $DEPLOYPATH/Header\&Footer/
+
+    # Main-Nav-Pages
+    - /bin/cp Main-Nav-Pages/about.php $DEPLOYPATH/Main-Nav-Pages/
+    - /bin/cp Main-Nav-Pages/accessibility.php $DEPLOYPATH/Main-Nav-Pages/
+    - /bin/cp Main-Nav-Pages/contact.php $DEPLOYPATH/Main-Nav-Pages/
+    - /bin/cp Main-Nav-Pages/legal.php $DEPLOYPATH/Main-Nav-Pages/
+    - /bin/cp Main-Nav-Pages/members.php $DEPLOYPATH/Main-Nav-Pages/
+    - /bin/cp Main-Nav-Pages/Purpose.php $DEPLOYPATH/Main-Nav-Pages/
+
+    # Pictures
+    - /bin/cp Pictures/accesiblity.jpg $DEPLOYPATH/Pictures/
+    - /bin/cp Pictures/buyuk-dere.png $DEPLOYPATH/Pictures/
+    - /bin/cp Pictures/canary-warf.jpg $DEPLOYPATH/Pictures/
+    - /bin/cp Pictures/conferance.jpg $DEPLOYPATH/Pictures/
+    - /bin/cp Pictures/contactus.jpg $DEPLOYPATH/Pictures/
+    - /bin/cp Pictures/legal.jpg $DEPLOYPATH/Pictures/
+    - /bin/cp Pictures/logo.png $DEPLOYPATH/Pictures/
+    - /bin/cp Pictures/meeting.jpg $DEPLOYPATH/Pictures/
+    - /bin/cp Pictures/members.jpg $DEPLOYPATH/Pictures/
+
+    # Practice-Areas-Nav-Pages
+    - /bin/cp Practice-Areas-Nav-Pages/banking-finance.php $DEPLOYPATH/Practice-Areas-Nav-Pages/
+    - /bin/cp Practice-Areas-Nav-Pages/capital-markets.php $DEPLOYPATH/Practice-Areas-Nav-Pages/
+    - /bin/cp Practice-Areas-Nav-Pages/competition-antitrust.php $DEPLOYPATH/Practice-Areas-Nav-Pages/
+    - /bin/cp Practice-Areas-Nav-Pages/corporate-support.php $DEPLOYPATH/Practice-Areas-Nav-Pages/
+    - /bin/cp Practice-Areas-Nav-Pages/global-trade.php $DEPLOYPATH/Practice-Areas-Nav-Pages/
+    - /bin/cp Practice-Areas-Nav-Pages/intellectual-property.php $DEPLOYPATH/Practice-Areas-Nav-Pages/
+    - /bin/cp Practice-Areas-Nav-Pages/real-estate.php $DEPLOYPATH/Practice-Areas-Nav-Pages/
+    - /bin/cp Practice-Areas-Nav-Pages/wealth-management.php $DEPLOYPATH/Practice-Areas-Nav-Pages/
+
+    # Practice-Areas-Nav-Pages-TR
+    - /bin/cp Practice-Areas-Nav-Pages-TR/banking-finance-TR.php $DEPLOYPATH/Practice-Areas-Nav-Pages-TR/
+    - /bin/cp Practice-Areas-Nav-Pages-TR/capital-markets-TR.php $DEPLOYPATH/Practice-Areas-Nav-Pages-TR/
+    - /bin/cp Practice-Areas-Nav-Pages-TR/competition-antitrust-TR.php $DEPLOYPATH/Practice-Areas-Nav-Pages-TR/
+    - /bin/cp Practice-Areas-Nav-Pages-TR/corporate-support-TR.php $DEPLOYPATH/Practice-Areas-Nav-Pages-TR/
+    - /bin/cp Practice-Areas-Nav-Pages-TR/global-trade-TR.php $DEPLOYPATH/Practice-Areas-Nav-Pages-TR/
+    - /bin/cp Practice-Areas-Nav-Pages-TR/intellectual-property-TR.php $DEPLOYPATH/Practice-Areas-Nav-Pages-TR/
+    - /bin/cp Practice-Areas-Nav-Pages-TR/real-estate-TR.php $DEPLOYPATH/Practice-Areas-Nav-Pages-TR/
+    - /bin/cp Practice-Areas-Nav-Pages-TR/wealth-management-TR.php $DEPLOYPATH/Practice-Areas-Nav-Pages-TR/
+
+    # Who-We-Are-Nav-Pages
+    - /bin/cp -r Who-We-Are-Nav-Pages $DEPLOYPATH
