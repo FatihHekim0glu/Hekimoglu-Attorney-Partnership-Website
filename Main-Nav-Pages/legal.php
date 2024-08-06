@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Page Title"; // Set this for each specific page
-$headerImage = "placeholder-image.jpg"; // Set this for each specific page
+$pageTitle = "Terms And Conditions"; 
+$headerImage = "placeholder-image.jpg"; 
 include 'header.php';
 ?>
 

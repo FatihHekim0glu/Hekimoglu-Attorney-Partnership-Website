@@ -1,10 +1,14 @@
 function switchLanguage(lang) {
+    var currentPath = window.location.pathname;
+    var newPath;
     if (lang === 'en') {
-        window.location.href = 'index.php';
-    } else if (lang === 'tr') {
-        window.location.href = 'index_tr.php';
+        newPath = currentPath.replace('-TR.php', '.php');
+    } else {
+        newPath = currentPath.replace('.php', '-TR.php');
     }
+    window.location.href = newPath;
 }
+
 
 document.addEventListener('DOMContentLoaded', function() {
     const header = document.getElementById('header-background');

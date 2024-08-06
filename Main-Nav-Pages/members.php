@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Members"; // Set this for each specific page
-$headerImage = "placeholder-image.jpg"; // Set this for each specific page
+$pageTitle = "Members"; 
+$headerImage = "placeholder-image.jpg"; 
 include 'header.php';
 ?>
 

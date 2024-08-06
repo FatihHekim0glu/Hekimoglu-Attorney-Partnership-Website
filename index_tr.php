@@ -20,14 +20,14 @@
                     <li class="dropdown">
                         <a href="#">Uzmanlık Alanları</a>
                         <div class="dropdown-content">
-                            <a href="global-trade.php">Küresel Ticaret</a>
-                            <a href="real-estate.php">Gayrimenkul</a>
-                            <a href="banking-finance.php">Bankacılık ve Finans</a>
-                            <a href="corporate-support.php">Kurumsal Destek</a>
-                            <a href="competition-antitrust.php">Rekabet Hukuku</a>
-                            <a href="capital-markets.php">Sermaye Piyasaları</a>
-                            <a href="intellectual-property.php">Fikri Mülkiyet</a>
-                            <a href="wealth-management.php">Varlık Yönetimi</a>
+                            <a href="Practice-Areas-Nav-Pages-TR/global-trade-TR.php">Küresel Ticaret</a>
+                            <a href="Practice-Areas-Nav-Pages-TR/real-estate-TR.php">Gayrimenkul</a>
+                            <a href="Practice-Areas-Nav-Pages-TR/banking-finance-TR.php">Bankacılık ve Finans</a>
+                            <a href="Practice-Areas-Nav-Pages-TR/corporate-support-TR.php">Kurumsal Destek</a>
+                            <a href="Practice-Areas-Nav-Pages-TR/competition-antitrust-TR.php">Rekabet Hukuku</a>
+                            <a href="Practice-Areas-Nav-Pages-TR/capital-markets-TR.php">Sermaye Piyasaları</a>
+                            <a href="Practice-Areas-Nav-Pages-TR/intellectual-property-TR.php">Fikri Mülkiyet</a>
+                            <a href="Practice-Areas-Nav-Pages-TR/wealth-management-TR.php">Varlık Yönetimi</a>
                         </div>
                     </li>
                     <li class="dropdown">

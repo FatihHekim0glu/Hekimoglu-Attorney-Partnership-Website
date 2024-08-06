@@ -1,9 +1,9 @@
 <?php
-$pageTitle = "Contact"; 
+$pageTitle = "Competition And Antitrust"; 
 $headerImage = "placeholder-image.jpg"; 
-include 'header.php';
+include __DIR__ . '/../Header&Footer/header.php';
 ?>
-
+   
 <div class="content-area">
     <div class="content-box">
         <h2>Welcome to <?php echo $pageTitle; ?></h2>
@@ -12,4 +12,4 @@ include 'header.php';
     </div>
 </div>
 
-<?php include 'footer.php'; ?>
+<?php include __DIR__ . '/../Header&Footer/footer.php'; ?>

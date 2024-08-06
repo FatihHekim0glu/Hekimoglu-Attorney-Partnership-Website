@@ -21,14 +21,14 @@
                         <li class="dropdown">
                             <a href="#">Practice Areas</a>
                             <div class="dropdown-content">
-                            <a href="../Practice-Areas-Nav-Pages/global-trade.php">Global Trade</a>
-                            <a href="../Practice-Areas-Nav-Pages/real-estate.php">Real Estate</a>
-                            <a href="../Practice-Areas-Nav-Pages/banking-finance.php">Banking and Finance</a>
-                            <a href="../Practice-Areas-Nav-Pages/corporate-support.php">Corporate Support</a>
-                            <a href="../Practice-Areas-Nav-Pages/competition-antitrust.php">Competition and Antitrust</a>
-                            <a href="../Practice-Areas-Nav-Pages/capital-markets.php">Capital Markets</a>
-                            <a href="../Practice-Areas-Nav-Pages/intellectual-property.php">Intellectual Property</a>
-                            <a href="../Practice-Areas-Nav-Pages/wealth-management.php">Wealth Management</a>
+                            <a href="../Practice-Areas-Nav-Pages-TR/global-trade-TR.php">Global Trade</a>
+                            <a href="../Practice-Areas-Nav-Pages-TR/real-estate-TR.php">Real Estate</a>
+                            <a href="../Practice-Areas-Nav-Pages-TR/banking-finance-TR.php">Banking and Finance</a>
+                            <a href="../Practice-Areas-Nav-Pages-TR/corporate-support-TR.php">Corporate Support</a>
+                            <a href="../Practice-Areas-Nav-Pages-TR/competition-antitrust-TR.php">Competition and Antitrust</a>
+                            <a href="../Practice-Areas-Nav-Pages-TR/capital-markets-TR.php">Capital Markets</a>
+                            <a href="../Practice-Areas-Nav-Pages-TR/intellectual-property-TR.php">Intellectual Property</a>
+                            <a href="../Practice-Areas-Nav-Pages-TR/wealth-management-TR.php">Wealth Management</a>
                             </div>
                         </li>
                         <li><a href="about.php">Who We Are</a></li>

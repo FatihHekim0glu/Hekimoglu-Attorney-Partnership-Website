@@ -1,7 +1,7 @@
 <?php
-$pageTitle = "Contact"; 
+$pageTitle = "Global Trade"; 
 $headerImage = "placeholder-image.jpg"; 
-include 'header.php';
+include __DIR__ . '/../Header&Footer/header.php';
 ?>
 
 <div class="content-area">
@@ -12,4 +12,4 @@ include 'header.php';
     </div>
 </div>
 
-<?php include 'footer.php'; ?>
+<?php include __DIR__ . '/../Header&Footer/footer.php'; ?>

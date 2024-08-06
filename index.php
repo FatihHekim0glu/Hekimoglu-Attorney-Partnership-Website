@@ -19,14 +19,14 @@
                     <li class="dropdown">
                         <a href="#">Practice Areas</a>
                         <div class="dropdown-content">
-                            <a href="global-trade.php">Global Trade</a>
-                            <a href="real-estate.php">Real Estate</a>
-                            <a href="banking-finance.php">Banking and Finance</a>
-                            <a href="corporate-support.php">Corporate Support</a>
-                            <a href="competition-antitrust.php">Competition and Antitrust</a>
-                            <a href="capital-markets.php">Capital Markets</a>
-                            <a href="intellectual-property.php">Intellectual Property</a>
-                            <a href="wealth-management.php">Wealth Management</a>
+                            <a href="Practice-Areas-Nav-Pages/global-trade.php">Global Trade</a>
+                            <a href="Practice-Areas-Nav-Pages/real-estate.php">Real Estate</a>
+                            <a href="Practice-Areas-Nav-Pages/banking-finance.php">Banking and Finance</a>
+                            <a href="Practice-Areas-Nav-Pages/corporate-support.php">Corporate Support</a>
+                            <a href="Practice-Areas-Nav-Pages/competition-antitrust.php">Competition and Antitrust</a>
+                            <a href="Practice-Areas-Nav-Pages/capital-markets.php">Capital Markets</a>
+                            <a href="Practice-Areas-Nav-Pages/intellectual-property.php">Intellectual Property</a>
+                            <a href="Practice-Areas-Nav-Pages/wealth-management.php">Wealth Management</a>
                         </div>
                     </li>
                     <li class="dropdown">
