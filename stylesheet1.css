@@ -26,6 +26,14 @@ nav {
 
 nav img {
     width: 275px;
+    background-color: rgba(255, 251, 251, 0.848);
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav img:hover {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .nav-container {
@@ -336,4 +344,13 @@ nav img {
     justify-content: center;
     align-items: center;
     pointer-events: none;
+}
+
+h4, h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
 }

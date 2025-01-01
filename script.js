@@ -1,22 +1,26 @@
 function switchLanguage(lang) {
-    var currentPath = window.location.pathname;
-    var newPath;
-    if (lang === 'en') {
-        newPath = currentPath.replace('-TR.php', '.php');
-    } else {
-        newPath = currentPath.replace('.php', '-TR.php');
-    }
-    window.location.href = newPath;
+    // Always stay on current page, just reload
+    window.location.reload();
 }
-
 
 document.addEventListener('DOMContentLoaded', function() {
     const header = document.getElementById('header-background');
     const currentPage = window.location.pathname.split("/").pop();
     
-    if (currentPage === 'index.php' || currentPage === '') {
-        header.style.backgroundImage = "linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('Pictures/canary-warf.jpg')";
-    } else if (currentPage === 'index_tr.php') {
-        header.style.backgroundImage = "linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('Pictures/buyuk-dere.png')";
+    // Set header image based on page
+    const headerImages = {
+        'index.php': 'Pictures/canary-warf.jpg',
+        'capital-markets.php': 'Pictures/capital-markets.jpg',
+        'banking-finance.php': 'Pictures/banking.jpg',
+        'competition-antitrust.php': 'Pictures/competition.jpg',
+        'corporate-support.php': 'Pictures/corporate.jpg',
+        'global-trade.php': 'Pictures/trade.jpg',
+        'intellectual-property.php': 'Pictures/ip.jpg',
+        'real-estate.php': 'Pictures/real-estate.jpg',
+        'wealth-management.php': 'Pictures/wealth.jpg'
+    };
+
+    if (headerImages[currentPage]) {
+        header.style.backgroundImage = `linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('${headerImages[currentPage]}')`;
     }
 });

@@ -12,5 +12,4 @@ deployment:
     - /bin/cp -R Main-Nav-Pages $DEPLOYPATH
     - /bin/cp -R Pictures $DEPLOYPATH
     - /bin/cp -R Practice-Areas-Nav-Pages $DEPLOYPATH
-    - /bin/cp -R Practice-Areas-Nav-Pages-TR $DEPLOYPATH
     - /bin/cp -R Who-We-Are-Nav-Pages $DEPLOYPATH

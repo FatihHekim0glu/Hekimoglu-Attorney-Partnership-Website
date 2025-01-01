@@ -26,7 +26,7 @@
                             <a href="../Practice-Areas-Nav-Pages/banking-finance.php">Banking and Finance</a>
                             <a href="../Practice-Areas-Nav-Pages/corporate-support.php">Corporate Support</a>
                             <a href="../Practice-Areas-Nav-Pages/competition-antitrust.php">Competition and Antitrust</a>
-                            <a href="../Practice-Areas-Nav-Pages/capital-markets.php">Capital Markets</a>
+                            <a href="/Practice-Areas-Nav-Pages/capital-markets.php">Capital Markets</a>
                             <a href="../Practice-Areas-Nav-Pages/intellectual-property.php">Intellectual Property</a>
                             <a href="../Practice-Areas-Nav-Pages/wealth-management.php">Wealth Management</a>
                             </div>
@@ -36,8 +36,19 @@
                     </ul>
                 </div>
                 <div class="language-switcher">
-                    <a href="<?php echo str_replace('-TR', '', $_SERVER['PHP_SELF']); ?>" class="language-button <?php echo (strpos($_SERVER['PHP_SELF'], '-TR') === false) ? 'active' : ''; ?>">EN</a>
-                    <a href="<?php echo str_replace('.php', '-TR.php', $_SERVER['PHP_SELF']); ?>" class="language-button <?php echo (strpos($_SERVER['PHP_SELF'], '-TR') !== false) ? 'active' : ''; ?>">TR</a>
+                    <!-- Switch to EN -->
+                    <a href="javascript:void(0);" 
+                    onclick="switchLanguage('en')" 
+                    class="language-button">
+                    EN
+                    </a>
+
+                    <!-- Switch to TR -->
+                    <a href="javascript:void(0);" 
+                    onclick="switchLanguage('tr')" 
+                    class="language-button">
+                    TR
+                    </a>
                 </div>
             </div>
         </nav>

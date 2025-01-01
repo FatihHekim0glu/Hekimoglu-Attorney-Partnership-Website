@@ -21,14 +21,14 @@
                         <li class="dropdown">
                             <a href="#">Practice Areas</a>
                             <div class="dropdown-content">
-                            <a href="../Practice-Areas-Nav-Pages-TR/global-trade-TR.php">Global Trade</a>
-                            <a href="../Practice-Areas-Nav-Pages-TR/real-estate-TR.php">Real Estate</a>
-                            <a href="../Practice-Areas-Nav-Pages-TR/banking-finance-TR.php">Banking and Finance</a>
-                            <a href="../Practice-Areas-Nav-Pages-TR/corporate-support-TR.php">Corporate Support</a>
-                            <a href="../Practice-Areas-Nav-Pages-TR/competition-antitrust-TR.php">Competition and Antitrust</a>
-                            <a href="../Practice-Areas-Nav-Pages-TR/capital-markets-TR.php">Capital Markets</a>
-                            <a href="../Practice-Areas-Nav-Pages-TR/intellectual-property-TR.php">Intellectual Property</a>
-                            <a href="../Practice-Areas-Nav-Pages-TR/wealth-management-TR.php">Wealth Management</a>
+                            <a href="../Practice-Areas-Nav-Pages/global-trade-TR.php">Global Trade</a>
+                            <a href="../Practice-Areas-Nav-Pages/real-estate-TR.php">Real Estate</a>
+                            <a href="../Practice-Areas-Nav-Pages/banking-finance-TR.php">Banking and Finance</a>
+                            <a href="../Practice-Areas-Nav-Pages/corporate-support-TR.php">Corporate Support</a>
+                            <a href="../Practice-Areas-Nav-Pages/competition-antitrust-TR.php">Competition and Antitrust</a>
+                            <a href="../Practice-Areas-Nav-Pages/capital-markets-TR.php">Capital Markets</a>
+                            <a href="../Practice-Areas-Nav-Pages/intellectual-property-TR.php">Intellectual Property</a>
+                            <a href="../Practice-Areas-Nav-Pages/wealth-management-TR.php">Wealth Management</a>
                             </div>
                         </li>
                         <li><a href="about.php">Who We Are</a></li>
@@ -36,8 +36,19 @@
                     </ul>
                 </div>
                 <div class="language-switcher">
-                    <a href="<?php echo str_replace('-TR', '', $_SERVER['PHP_SELF']); ?>" class="language-button <?php echo (strpos($_SERVER['PHP_SELF'], '-TR') === false) ? 'active' : ''; ?>">EN</a>
-                    <a href="<?php echo str_replace('.php', '-TR.php', $_SERVER['PHP_SELF']); ?>" class="language-button <?php echo (strpos($_SERVER['PHP_SELF'], '-TR') !== false) ? 'active' : ''; ?>">TR</a>
+                    <!-- Switch to EN -->
+                    <a href="javascript:void(0);" 
+                    onclick="switchLanguage('en')" 
+                    class="language-button">
+                    EN
+                    </a>
+
+                    <!-- Switch to TR -->
+                    <a href="javascript:void(0);" 
+                    onclick="switchLanguage('tr')" 
+                    class="language-button">
+                    TR
+                    </a>
                 </div>
             </div>
         </nav>
