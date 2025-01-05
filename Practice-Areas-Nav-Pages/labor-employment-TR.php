@@ -18,25 +18,22 @@ $headerImage = "../Pictures/labor-employment.jpg";
     <header class="page-header" id="header-background"
             style="background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('<?php echo $headerImage; ?>');">
         <nav>
-            <a href="index.php"><img src="../Pictures/logo.png" alt="Hekimoglu Attorney Partnership Logo"></a>
+            <a href="../index_tr.php"><img src="../Pictures/logo.png" alt="Hekimoglu Attorney Partnership Logo"></a>
             <div class="nav-container">
                 <div class="nav-links" id="navLinks">
                     <ul>
-                        <li><a href="index.php">Ana Sayfa</a></li>
+                        <li><a href="../index_tr.php">Ana Sayfa</a></li>
                         <li class="dropdown">
                             <a href="#">Hizmet Alanlarımız</a>
                             <div class="dropdown-content">
                                 <a href="../Practice-Areas-Nav-Pages/real-estate-TR.php">Gayrimenkul</a>
-                                <a href="../Practice-Areas-Nav-Pages/banking-finance-TR.php">Bankacılık ve Finans</a>
-                                <a href="../Practice-Areas-Nav-Pages/corporate-support-TR.php">Kurumsal Destek</a>
-                                <a href="../Practice-Areas-Nav-Pages/competition-antitrust-TR.php">Rekabet Hukuku</a>
-                                <a href="../Practice-Areas-Nav-Pages/capital-markets-TR.php">Sermaye Piyasaları</a>
-                                <a href="../Practice-Areas-Nav-Pages/intellectual-property-TR.php">Fikri Mülkiyet</a>
-                                <a href="../Practice-Areas-Nav-Pages/wealth-management-TR.php">Varlık Yönetimi</a>
+                                <a href="../Practice-Areas-Nav-Pages/company-consultancy-TR.php">Şirket Danışmanlığı</a>
+                                <a href="../Practice-Areas-Nav-Pages/labor-employment-TR.php">İş ve İstihdam Hukuku</a>
+                                <a href="../Practice-Areas-Nav-Pages/expropriation-TR.php">Kamulaştırma</a>
                             </div>
                         </li>
-                        <li><a href="about.php">Hakkımızda</a></li>
-                        <li><a href="contact.php">İletişim</a></li>
+                        <li><a href="about_tr.php">Hakkımızda</a></li>
+                        <li><a href="contact_tr.php">İletişim</a></li>
                     </ul>
                 </div>
                 <div class="language-switcher">
@@ -123,9 +120,9 @@ $headerImage = "../Pictures/labor-employment.jpg";
         <h4><a href="index.php">Hekimoglu Attorney Partnership</a></h4>
         <p>Modern iş dünyasının ve hukukun karmaşıklığında, güvenilir bir rehberiniz.</p>
         <ul>
-            <li><a href="accessibility.php">Erişilebilirlik</a></li>
-            <li><a href="legal.php">Hukuki Bilgiler ve Güvenlik</a></li>
-            <li><a href="privacy.php">Gizlilik Politikası</a></li>
+            <li><a href="../Main-Nav-Pages/accessibility-TR.php">Erişilebilirlik</a></li>
+            <li><a href="../Main-Nav-Pages/legal-TR.php">Hukuki Bilgiler ve Güvenlik</a></li>
+            <li><a href="../Main-Nav-Pages/privacy-TR.php">Gizlilik Politikası</a></li>
         </ul>
         <p>&copy; 2024 Hekimoglu Attorney Partnership. Tüm hakları saklıdır.</p>
     </footer>
@@ -149,7 +146,7 @@ $headerImage = "../Pictures/labor-employment.jpg";
         const header = document.getElementById('header-background');
         const currentPage = window.location.pathname.split("/").pop();
         
-        if (currentPage === 'index.php' || currentPage === '') {
+        if (currentPage === '../index_tr.php' || currentPage === '') {
             header.style.backgroundImage = "linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('Pictures/canary-warf.jpg')";
         } else if (currentPage === 'index_tr.php') {
             header.style.backgroundImage = "linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('Pictures/buyuk-dere.png')";

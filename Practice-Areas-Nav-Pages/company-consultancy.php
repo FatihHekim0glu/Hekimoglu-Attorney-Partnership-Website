@@ -18,26 +18,22 @@ $headerImage = "../Pictures/company-consultancy.jpg";
     <header class="page-header" id="header-background"
             style="background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('<?php echo $headerImage; ?>');">
         <nav>
-            <a href="index.php"><img src="../Pictures/logo.png" alt="Hekimoglu Attorney Partnership Logo"></a>
+            <a href="../index.php"><img src="../Pictures/logo.png" alt="Hekimoglu Attorney Partnership Logo"></a>
             <div class="nav-container">
                 <div class="nav-links" id="navLinks">
                     <ul>
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="../index.php">Home</a></li>
                         <li class="dropdown">
                             <a href="#">Practice Areas</a>
                             <div class="dropdown-content">
-                                <a href="../Practice-Areas-Nav-Pages/global-trade.php">Global Trade</a>
                                 <a href="../Practice-Areas-Nav-Pages/real-estate.php">Real Estate</a>
-                                <a href="../Practice-Areas-Nav-Pages/banking-finance.php">Banking and Finance</a>
-                                <a href="../Practice-Areas-Nav-Pages/corporate-support.php">Corporate Support</a>
-                                <a href="../Practice-Areas-Nav-Pages/competition-antitrust.php">Competition and Antitrust</a>
-                                <a href="../Practice-Areas-Nav-Pages/capital-markets.php">Capital Markets</a>
-                                <a href="../Practice-Areas-Nav-Pages/intellectual-property.php">Intellectual Property</a>
-                                <a href="../Practice-Areas-Nav-Pages/wealth-management.php">Wealth Management</a>
+                                <a href="../Practice-Areas-Nav-Pages/company-consultancy.php">Company Consultancy</a>
+                                <a href="../Practice-Areas-Nav-Pages/labor-employment.php">Labor and Employment</a>
+                                <a href="../Practice-Areas-Nav-Pages/expropriation.php">Expropriation</a>
                             </div>
                         </li>
-                        <li><a href="about.php">Who We Are</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="../Main-Nav-Pages/about.php">Who We Are</a></li>
+                        <li><a href="../Main-Nav-Pages/contact.php">Contact</a></li>
                     </ul>
                 </div>
                 <div class="language-switcher">
@@ -118,12 +114,12 @@ $headerImage = "../Pictures/company-consultancy.jpg";
     </div>
 
     <footer class="footer">
-        <h4><a href="index.php">Hekimoglu Attorney Partnership</a></h4>
+        <h4><a href="../index.php">Hekimoglu Attorney Partnership</a></h4>
         <p>Your trusted legal partner in navigating the complexities of modern business and law.</p>
         <ul>
-            <li><a href="accessibility.php">Accessibility</a></li>
-            <li><a href="legal.php">Legal and Security</a></li>
-            <li><a href="privacy.php">Privacy Policy</a></li>
+            <li><a href="../Main-Nav-Pages/accessibility.php">Accessibility</a></li>
+            <li><a href="../Main-Nav-Pages/legal.php">Legal and Security</a></li>
+            <li><a href="../Main-Nav-Pages/privacy.php">Privacy Policy</a></li>
         </ul>
         <p>&copy; 2024 Hekimoglu Attorney Partnership. All rights reserved.</p>
     </footer>
