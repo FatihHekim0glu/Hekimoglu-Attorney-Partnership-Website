@@ -20,7 +20,6 @@
                     <li class="dropdown">
                         <a href="#">Uzmanlık Alanları</a>
                         <div class="dropdown-content">
-                            <a href="Practice-Areas-Nav-Pages-TR/global-trade-TR.php">Küresel Ticaret</a>
                             <a href="Practice-Areas-Nav-Pages-TR/real-estate-TR.php">Gayrimenkul</a>
                             <a href="Practice-Areas-Nav-Pages-TR/banking-finance-TR.php">Bankacılık ve Finans</a>
                             <a href="Practice-Areas-Nav-Pages-TR/corporate-support-TR.php">Kurumsal Destek</a>
@@ -28,6 +27,7 @@
                             <a href="Practice-Areas-Nav-Pages-TR/capital-markets-TR.php">Sermaye Piyasaları</a>
                             <a href="Practice-Areas-Nav-Pages-TR/intellectual-property-TR.php">Fikri Mülkiyet</a>
                             <a href="Practice-Areas-Nav-Pages-TR/wealth-management-TR.php">Varlık Yönetimi</a>
+                            <a href="Practice-Areas-Nav-Pages-TR/labor-employement-TR.php">İşveren-İşçi</a>
                         </div>
                     </li>
                     <li class="dropdown">

@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Intellectual Property"; 
-$headerImage = "placeholder-image.jpg"; 
+$pageTitle = "Expropriation"; 
+$headerImage = "../Pictures/expropriation.jpg"; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,13 +15,14 @@ $headerImage = "placeholder-image.jpg";
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="page-header" id="header-background" style="background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('<?php echo $headerImage; ?>');">
+    <header class="page-header" id="header-background"
+            style="background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('<?php echo $headerImage; ?>');">
         <nav>
             <a href="index.php"><img src="../Pictures/logo.png" alt="Hekimoglu Attorney Partnership Logo"></a>
             <div class="nav-container">
                 <div class="nav-links" id="navLinks">
                     <ul>
-                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li class="dropdown">
                             <a href="#">Practice Areas</a>
                             <div class="dropdown-content">
@@ -59,12 +60,61 @@ $headerImage = "placeholder-image.jpg";
             <h1><?php echo $pageTitle; ?></h1>
         </div>
     </header>
-    
+
     <div class="content-area">
         <div class="content-box">
-            <h2>Welcome to <?php echo $pageTitle; ?></h2>
-            <p>This is a placeholder content for the <?php echo $pageTitle; ?> page. You can replace this text with the actual content for this specific page.</p>
-            <p>Add more paragraphs, lists, images, or any other content as needed for each specific page.</p>
+            <h2>Welcome to Expropriation</h2>
+
+            <!-- Introductory Paragraphs -->
+            <p>
+                Expropriation has become a familiar process in rapidly growing economies, where large-scale infrastructure
+                projects and public investments frequently require the compulsory acquisition of private land. For property
+                owners, the stakes are high: preserving their rights and securing fair compensation is essential for both
+                individual justice and broader societal balance.
+            </p>
+
+            <p>
+                At Hekimoğlu Attorney Partnership, our team’s deep understanding of expropriation legislation allows us to
+                guide clients through each step of this challenging procedure. From preliminary evaluation to court proceedings,
+                we focus on developing effective strategies that protect our clients’ interests and help them obtain fair
+                valuations for their property.
+            </p>
+
+            <!-- Main Services Heading -->
+            <h3>Our Expertise in Expropriation</h3>
+            <p><em>Our services focus on, but are not limited to, the following areas:</em></p>
+
+            <!-- 1) Legal Assessment & Strategy Formation -->
+            <h4>1. Legal Assessment &amp; Strategy Formation</h4>
+            <p>
+                We thoroughly review the legal basis for the proposed expropriation, ensuring that all procedures conform
+                to statutory requirements. Based on our findings, we craft tailored strategies to contest or negotiate
+                expropriation decisions, defending our clients’ rights at every stage.
+            </p>
+
+            <!-- 2) Property Valuation & Compensation Claims -->
+            <h4>2. Property Valuation &amp; Compensation Claims</h4>
+            <p>
+                Collaborating with independent experts, we gather accurate valuations of the property in question, laying
+                a solid foundation for claiming fair compensation. This process bolsters our negotiating position and ensures
+                the final settlement reflects the true market value of our clients’ land.
+            </p>
+
+            <!-- 3) Administrative & Judicial Representation -->
+            <h4>3. Administrative &amp; Judicial Representation</h4>
+            <p>
+                Whether dealing with administrative formalities or litigating in court, we handle the intricate paperwork,
+                submit appeals, and present compelling arguments on behalf of our clients. Our goal is to ensure all official
+                steps are properly executed and our clients’ interests remain at the forefront.
+            </p>
+
+            <!-- 4) Negotiation & Settlement -->
+            <h4>4. Negotiation &amp; Settlement</h4>
+            <p>
+                We recognize the potential benefits of a timely resolution, both financially and logistically. Through
+                informed negotiation and careful advocacy, we seek amicable agreements that fulfill our clients’ objectives
+                without unnecessary delays or prolonged disputes.
+            </p>
         </div>
     </div>
 

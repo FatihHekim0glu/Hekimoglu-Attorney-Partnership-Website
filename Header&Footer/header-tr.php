@@ -28,6 +28,7 @@
                             <a href="../Practice-Areas-Nav-Pages/competition-antitrust-TR.php">Competition and Antitrust</a>
                             <a href="../Practice-Areas-Nav-Pages/capital-markets-TR.php">Capital Markets</a>
                             <a href="../Practice-Areas-Nav-Pages/intellectual-property-TR.php">Intellectual Property</a>
+                            <a href="../Practice-Areas-Nav-Pages/labor-employment-TR.php">İş ve İstihdam Hukuku</a>
                             <a href="../Practice-Areas-Nav-Pages/wealth-management-TR.php">Wealth Management</a>
                             </div>
                         </li>

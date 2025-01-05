@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Competition And Antitrust"; 
-$headerImage = "placeholder-image.jpg"; 
+$pageTitle = "Company Consultancy"; 
+$headerImage = "../Pictures/company-consultancy.jpg"; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,8 @@ $headerImage = "placeholder-image.jpg";
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="page-header" id="header-background" style="background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('<?php echo $headerImage; ?>');">
+    <header class="page-header" id="header-background"
+            style="background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('<?php echo $headerImage; ?>');">
         <nav>
             <a href="index.php"><img src="../Pictures/logo.png" alt="Hekimoglu Attorney Partnership Logo"></a>
             <div class="nav-container">
@@ -59,12 +60,60 @@ $headerImage = "placeholder-image.jpg";
             <h1><?php echo $pageTitle; ?></h1>
         </div>
     </header>
-    
+
     <div class="content-area">
         <div class="content-box">
-            <h2>Welcome to <?php echo $pageTitle; ?></h2>
-            <p>This is a placeholder content for the <?php echo $pageTitle; ?> page. You can replace this text with the actual content for this specific page.</p>
-            <p>Add more paragraphs, lists, images, or any other content as needed for each specific page.</p>
+            <h2>Welcome to Company Consultancy</h2>
+
+            <!-- Introductory Paragraphs -->
+            <p>
+                In an era of rapid globalization and intense competition, businesses must navigate a complex web of legal
+                and operational challenges to sustain growth. Particularly in evolving commercial environments like Turkey,
+                maintaining compliance with ever-changing regulations while pursuing strategic objectives can be daunting.
+            </p>
+
+            <p>
+                At Hekimoğlu Attorney Partnership, we offer a holistic suite of services designed to support companies
+                throughout all stages of their corporate journey—from formation and restructuring to dissolution and beyond.
+                Our team draws upon deep legal expertise and industry awareness to provide solutions that protect your
+                interests and empower your vision for the future.
+            </p>
+
+            <!-- Main Services Heading -->
+            <h3>Our Core Company Consultancy Services</h3>
+            <p><em>We assist in, but are not limited to, the following areas:</em></p>
+
+            <!-- 1) Company Formation & Structural Changes -->
+            <h4>1. Company Formation &amp; Structural Changes</h4>
+            <p>
+                Whether establishing a new entity or navigating acquisitions, mergers, demergers, and liquidations,
+                we guide you through the entire lifecycle of corporate development. We ensure compliance with local regulations,
+                prepare requisite documentation, and mitigate risks at every step.
+            </p>
+
+            <!-- 2) Internal Governance Agreements -->
+            <h4>2. Internal Governance Agreements</h4>
+            <p>
+                From shareholder agreements to board protocols, we structure internal frameworks that align with both
+                regulatory mandates and best practices. This proactive approach helps prevent conflicts and fosters a
+                transparent, collaborative management culture.
+            </p>
+
+            <!-- 3) Service Contracts -->
+            <h4>3. Service Contracts</h4>
+            <p>
+                We draft robust service agreements between employers and employees or with external vendors, clearly defining
+                all rights and responsibilities. This clarity prevents disputes, enhances operational efficiency, and
+                minimizes legal exposure for all parties involved.
+            </p>
+
+            <!-- 4) Corporate Disputes & Judicial Activities -->
+            <h4>4. Corporate Disputes &amp; Judicial Activities</h4>
+            <p>
+                When internal governance issues arise or service contract breaches occur, our litigation and negotiation
+                teams step in to resolve conflicts swiftly. We combine mediation, arbitration, and, if necessary, litigation
+                strategies to safeguard our clients’ legal and financial interests.
+            </p>
         </div>
     </div>
 

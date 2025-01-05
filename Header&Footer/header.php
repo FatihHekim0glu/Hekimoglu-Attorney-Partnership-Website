@@ -28,6 +28,7 @@
                             <a href="../Practice-Areas-Nav-Pages/competition-antitrust.php">Competition and Antitrust</a>
                             <a href="/Practice-Areas-Nav-Pages/capital-markets.php">Capital Markets</a>
                             <a href="../Practice-Areas-Nav-Pages/intellectual-property.php">Intellectual Property</a>
+                            <a href="../Practice-Areas-Nav-Pages/labor-employment.php">Labor and Employment</a>
                             <a href="../Practice-Areas-Nav-Pages/wealth-management.php">Wealth Management</a>
                             </div>
                         </li>

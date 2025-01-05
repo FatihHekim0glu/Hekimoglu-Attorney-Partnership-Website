@@ -19,7 +19,6 @@
                     <li class="dropdown">
                         <a href="#">Practice Areas</a>
                         <div class="dropdown-content">
-                            <a href="Practice-Areas-Nav-Pages/global-trade.php">Global Trade</a>
                             <a href="Practice-Areas-Nav-Pages/real-estate.php">Real Estate</a>
                             <a href="Practice-Areas-Nav-Pages/banking-finance.php">Banking and Finance</a>
                             <a href="Practice-Areas-Nav-Pages/corporate-support.php">Corporate Support</a>
@@ -27,6 +26,7 @@
                             <a href="Practice-Areas-Nav-Pages/capital-markets.php">Capital Markets</a>
                             <a href="Practice-Areas-Nav-Pages/intellectual-property.php">Intellectual Property</a>
                             <a href="Practice-Areas-Nav-Pages/wealth-management.php">Wealth Management</a>
+                            <a href="Practice-Areas-Nav-Pages/labor-employment.php">Labor and Employment</a>
                         </div>
                     </li>
                     <li class="dropdown">
